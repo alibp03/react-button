@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from './Button';
-import { ArgTypes } from '@storybook/blocks';
 
 export default {
   title: 'Components/Button',
