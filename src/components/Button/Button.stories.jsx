@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from './Button';
 
 export default {
@@ -26,53 +25,58 @@ export default {
   },
 };
 
-const Template = (args) => <Button {...args} />;
-
-export const Default = Template.bind({});
-Default.args = {
-  children: 'Click Me',
-  size: 'small',
-  variant: 'primary',
+export const Default = {
+  args: {
+    children: 'Click Me',
+    size: 'small',
+    variant: 'primary',
+  },
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
-  children: 'primary',
-  size: 'small',
-  variant: 'primary',
+export const Primary = {
+  args: {
+    children: 'primary',
+    size: 'small',
+    variant: 'primary',
+  },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  children: 'secondary',
-  size: 'small',
-  variant: 'secondary',
+export const Secondary = {
+  args: {
+    children: 'secondary',
+    size: 'small',
+    variant: 'secondary',
+  },
 };
 
-export const Medium = Template.bind({});
-Medium.args = {
-  children: 'medium',
-  size: 'medium',
-  variant: 'primary',
+export const Medium = {
+  args: {
+    children: 'medium',
+    size: 'medium',
+    variant: 'primary',
+  },
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  children: 'large',
-  size: 'large',
-  variant: 'primary',
+export const Large = {
+  args: {
+    children: 'large',
+    size: 'large',
+    variant: 'primary',
+  },
 };
 
-export const Back = Template.bind({});
-Back.args = {
-  children: 'back',
-  size: 'small',
-  variant: 'back',
+export const Back = {
+  args: {
+    children: 'back',
+    size: 'small',
+    variant: 'back',
+  },
 };
 
-export const Disabled = Template.bind({});
-Disabled.args = {
-  children: 'disabled',
-  size: 'small',
-  variant: 'primary',
+export const Disabled = {
+  args: {
+    children: 'disabled',
+    size: 'small',
+    variant: 'primary',
+  },
 };
